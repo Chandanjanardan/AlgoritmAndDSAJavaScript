@@ -21,7 +21,7 @@ function binarySearch(arr,target){
     }
     return -1
 }
-console.log(binarySearch([2,3,4,5,6,7],6))
-console.log(binarySearch([2,3,4,5,6,7],10))
+// console.log(binarySearch([2,3,4,5,6,7],6))
+// console.log(binarySearch([2,3,4,5,6,7],10))
 /* one while loop O(n) but in every iteration array size halfed
 so Big o is O(log(n))*/
