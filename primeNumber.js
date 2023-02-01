@@ -11,4 +11,4 @@ for (let i=2;i<n;i++){
     }
 }
 }
-console.log(primeNumber(5))
+// console.log(primeNumber(5))
