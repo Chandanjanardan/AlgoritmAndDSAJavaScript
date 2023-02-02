@@ -20,6 +20,8 @@ console.log("bubble sort")
 }
 let arr=[5,4,3,2,1]
 bubbleSort(arr)
-console.log(arr)
+// console.log(arr)
 
-console.log(bubbleSort([2,5,3,4,1]))
+// console.log(bubbleSort([2,5,3,4,1]))
+
+// .2 loop for and while O(n^2)
