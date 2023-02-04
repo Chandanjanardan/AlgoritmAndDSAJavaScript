@@ -1,4 +1,4 @@
-console.log("merger sort")
+// console.log("merger sort")
 function mergeSort(arr){
     if (arr.length <2){
         return arr
@@ -22,5 +22,5 @@ function merge(leftArr,rightArr){
 }
 
 arr=[8,20,-2,4,-6]
-console.log(mergeSort(arr))
+// console.log(mergeSort(arr))
 // big O O(nlogn)
