@@ -11,6 +11,7 @@ function insertionSort(arr){
 }
 
 arr=[8,4,3,6,60,5,2,1]
-insertionSort(arr)
-console.log(arr)
-console.log("insertion sort")
+// insertionSort(arr)
+// console.log(arr)
+// console.log("insertion sort")
+// Big O(n^2)
