@@ -3,7 +3,7 @@
 // compare each with target and return the matched
 
 function linearSearch(arr,n){
-    for (let i=0;i<arr.length;i++){
+    for (let i of arr){
         if (arr[i]===n){
             return `${n} found at index ${i}`;
         }
