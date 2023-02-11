@@ -65,6 +65,13 @@ class BinarySeachTree{
             this.inOrder(root.right)
         }
     }
+    postOrder(root){
+        if(root){
+            this.postOrder(root.left)
+            this.postOrder(root.right)
+            console.log(root.value)
+        }
+    }
 }
 const bst = new BinarySeachTree()
 console.log("tree is empty",bst.isEmpty())
@@ -79,3 +86,4 @@ console.log(bst.serach(bst.root,5))
 console.log(bst.serach(bst.root,120))
 bst.preOrder(bst.root)
 bst.inOrder(bst.root)
+bst.postOrder(bst.root)
