@@ -72,6 +72,20 @@ class BinarySeachTree{
             console.log(root.value)
         }
     }
+    leveOrder(){
+        const queue=[]
+        queue.push(this.root)
+        while(queue.length){
+            let curr=queue.shift()
+            console.log(curr.value)
+            if(curr.left){
+                queue.push(curr.left)
+            }
+            if(curr.right){
+                queue.push(curr.right)
+            }
+        }
+    }
 }
 const bst = new BinarySeachTree()
 console.log("tree is empty",bst.isEmpty())
@@ -86,4 +100,4 @@ console.log(bst.serach(bst.root,5))
 console.log(bst.serach(bst.root,120))
 bst.preOrder(bst.root)
 bst.inOrder(bst.root)
-bst.postOrder(bst.root)
+bst.leveOrder()
