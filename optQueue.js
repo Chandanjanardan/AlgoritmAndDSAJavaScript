@@ -33,5 +33,5 @@ const queue=new Queue()
 queue.enqueue(10)
 queue.enqueue(20)
 queue.print()
-
+queue.peek()
 queue.size()
