@@ -34,5 +34,5 @@ queue.enqueue(30)
 console.log(queue.size())
 queue.print()
 
-console.log(queue.dequeqe())
-console.log(queue.peek())
+// console.log(queue.dequeqe())
+// console.log(queue.peek())
