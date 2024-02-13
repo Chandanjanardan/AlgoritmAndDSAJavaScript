@@ -145,3 +145,6 @@ console.log(bst.max(bst.root))
 bst.levelOrder()
 bst.delete(7)
 bst.levelOrder()
+
+
+// this is tree code 
